@@ -30,6 +30,8 @@ function formSubmit(evt) {
     console.log(formData);
     localStorage.removeItem(KEY);
     form.reset();
+    formData.email = '';
+    formData.message = '';
   } else {
     console.log('Fill please all fields');
   }
