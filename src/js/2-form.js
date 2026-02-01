@@ -13,8 +13,8 @@ const { message, email } = localeData;
 form.elements.message.value = message ?? '';
 form.elements.email.value = email ?? '';
 
-formData.email = email;
-formData.message = message;
+formData.email = email ?? '';
+formData.message = message ?? '';
 
 function inputClick(evt) {
   const { target } = evt;
