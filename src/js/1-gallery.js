@@ -71,8 +71,6 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-console.log(gallery);
-
 const galleryImage = images
   .map(
     ({ preview, original, description }) => `<li class="gallery-item">
